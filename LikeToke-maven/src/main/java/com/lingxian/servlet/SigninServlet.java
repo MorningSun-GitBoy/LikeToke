@@ -12,7 +12,7 @@ public class SigninServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
         resp.setCharacterEncoding("gbk");
-        resp.getWriter().println("servlet run nomally");
+        resp.getWriter().println("servlet run normally");
         resp.flushBuffer();
     }
     @Override
